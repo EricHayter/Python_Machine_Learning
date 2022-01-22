@@ -1,3 +1,7 @@
+'''
+This is the first machine model that was made. It is fairly bare-bones using the basic
+MNIST hand drawn digits dataset.
+'''
 import tensorflow as tf
 mnist = tf.keras.datasets.mnist
 
