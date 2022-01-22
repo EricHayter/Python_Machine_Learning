@@ -1,4 +1,7 @@
 '''
+Eric Hayter
+Jan 01, 2022
+
 This is the first machine model that was made. It is fairly bare-bones using the basic
 MNIST hand drawn digits dataset.
 '''
