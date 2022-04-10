@@ -1,0 +1,11 @@
+SOFTMAX
+---
+will return a value within the range of (0-1) that can be represented as a probability of an outcome from a model.
+This is extremely useful in image classification where outputs may not be as clear. The output of 0 would mean that there
+is very little confidence in that answer while 1 would be it would be certain of that output. Additionally, if you want to convert
+the set of values back to an integer to find which entry had the highest probability just use the argmax() function.
+
+    Strengths
+    - useful in multiclass-classification models
+        - ie. image classification
+        - text classification etc.
